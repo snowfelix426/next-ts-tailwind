@@ -23,7 +23,7 @@ const Hero = ({ content }: IHeroProps) => {
         </h1>
         <Link href={ctaLink}>
           <a>
-            <Button>
+            <Button className="uppercase">
               <span>{ctaLabel}</span>
               <ChevronRightIcon className="w-5 h-5 ml-2.5" />
             </Button>
