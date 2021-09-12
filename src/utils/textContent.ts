@@ -28,6 +28,34 @@ const content = {
       },
     ],
   },
+  blogs: {
+    title: 'Our Blog',
+    description:
+      'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim',
+    postList: [
+      {
+        name: 'Typi non habent claritatem insitam',
+        date: '10 April 2014',
+        description:
+          'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui [...]',
+        featuredImage: '/assets/images/img-temp-blog.jpg',
+      },
+      {
+        name: 'Typi non habent claritatem insitam',
+        date: '10 April 2014',
+        description:
+          'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui [...]',
+        featuredImage: '/assets/images/img-temp-blog.jpg',
+      },
+      {
+        name: 'Typi non habent claritatem insitam',
+        date: '10 April 2014',
+        description:
+          'Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui [...]',
+        featuredImage: '/assets/images/img-temp-blog.jpg',
+      },
+    ],
+  },
 };
 
 export default content;
