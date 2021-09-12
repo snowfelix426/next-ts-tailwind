@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '@components/Header/Header';
-// import Footer from '@components/Footer/Footer';
+import Footer from '@components/Footer/Footer';
 
 export interface ILayoutProps {
   title?: string;
@@ -26,7 +26,9 @@ const Layout = ({
 
       <main>{children}</main>
 
-      <footer>{/* <Footer /> */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

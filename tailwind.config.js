@@ -16,6 +16,10 @@ module.exports = {
       backgroundColor: {
         primary: '#26231F',
         secondary: '#303030',
+        'dark-level-1': '#222',
+      },
+      zIndex: {
+        1000: 1000,
       },
     },
   },

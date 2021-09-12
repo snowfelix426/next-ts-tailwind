@@ -1,0 +1,36 @@
+.footer {
+  @apply bg-dark-level-1;
+
+  &List {
+    @apply lg:col-start-3 lg:col-span-10;
+
+    &Item {
+      h5 {
+        @apply text-light-grey text-sm font-bold mb-5 lg:mb-8;
+      }
+
+      ul {
+        li {
+          @apply text-sm text-light-grey mb-3 lg:mb-5;
+
+          &:last-of-type {
+            @apply mb-0;
+          }
+        }
+      }
+    }
+
+    &Bottom {
+      @apply pt-6 lg:flex lg:items-center lg:justify-between;
+
+      ul {
+        li {
+          @apply text-sm text-light-grey text-center lg:text-left;
+        }
+      }
+      p {
+        @apply text-sm text-light-grey text-center lg:text-left;
+      }
+    }
+  }
+}
