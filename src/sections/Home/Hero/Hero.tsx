@@ -18,7 +18,7 @@ const Hero = ({ content }: IHeroProps) => {
         <span className="text-base font-bold text-white uppercase lg:text-xl">
           {subtitle}
         </span>
-        <h1 className="text-5xl leading-none text-white lg:text-7xl pt-3.5 mb-12">
+        <h1 className="text-5xl leading-none text-white lg:text-7xl pt-3.5 mb-8 lg:mb-12">
           {title}
         </h1>
         <Link href={ctaLink}>
