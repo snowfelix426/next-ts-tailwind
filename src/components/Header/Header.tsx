@@ -25,7 +25,7 @@ const Header = () => {
         isSticky ? 'bg-gray-600' : 'bg-secondary'
       } fixed top-0 left-0 w-full z-1000 transition	ease-in-out`}
     >
-      <div className="w-full p-6 lg:px-20 md:px-12">
+      <div className="w-full px-4 py-6 lg:px-20 md:px-12">
         <div className="mx-auto max-w-7xl">
           <div className="flex items-center justify-between w-full">
             <div className="transition ease-in-out lg:text-center">
@@ -41,7 +41,7 @@ const Header = () => {
               </Link>
             </div>
 
-            <div className="lg:block lg:text-right">
+            <div className="ml-3 text-right lg:ml-0">
               <div className="text-base text-white underline transition ease-in-out lg:text-xl">
                 Partner with VICE
               </div>
